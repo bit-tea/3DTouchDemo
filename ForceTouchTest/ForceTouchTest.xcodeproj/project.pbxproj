@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA5A666E1EF288AB00FA7E0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5A666D1EF288AB00FA7E0B /* main.m */; };
+		FA5A66711EF288AB00FA7E0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5A66701EF288AB00FA7E0B /* AppDelegate.m */; };
+		FA5A66741EF288AB00FA7E0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5A66731EF288AB00FA7E0B /* ViewController.m */; };
+		FA5A66771EF288AB00FA7E0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5A66751EF288AB00FA7E0B /* Main.storyboard */; };
+		FA5A66791EF288AB00FA7E0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5A66781EF288AB00FA7E0B /* Assets.xcassets */; };
+		FA5A667C1EF288AB00FA7E0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5A667A1EF288AB00FA7E0B /* LaunchScreen.storyboard */; };
+		FA5A66871EF288AB00FA7E0B /* ForceTouchTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5A66861EF288AB00FA7E0B /* ForceTouchTestTests.m */; };
+		FA5A66921EF288AB00FA7E0B /* ForceTouchTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5A66911EF288AB00FA7E0B /* ForceTouchTestUITests.m */; };
+		FA5A66A51EF2948C00FA7E0B /* BTForceTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5A66A41EF2948C00FA7E0B /* BTForceTouch.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA5A66831EF288AB00FA7E0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA5A66611EF288AB00FA7E0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA5A66681EF288AB00FA7E0B;
+			remoteInfo = ForceTouchTest;
+		};
+		FA5A668E1EF288AB00FA7E0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA5A66611EF288AB00FA7E0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA5A66681EF288AB00FA7E0B;
+			remoteInfo = ForceTouchTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA5A66691EF288AB00FA7E0B /* ForceTouchTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForceTouchTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5A666D1EF288AB00FA7E0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA5A666F1EF288AB00FA7E0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA5A66701EF288AB00FA7E0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA5A66721EF288AB00FA7E0B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA5A66731EF288AB00FA7E0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA5A66761EF288AB00FA7E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA5A66781EF288AB00FA7E0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA5A667B1EF288AB00FA7E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA5A667D1EF288AB00FA7E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5A66821EF288AB00FA7E0B /* ForceTouchTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForceTouchTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5A66861EF288AB00FA7E0B /* ForceTouchTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForceTouchTestTests.m; sourceTree = "<group>"; };
+		FA5A66881EF288AB00FA7E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5A668D1EF288AB00FA7E0B /* ForceTouchTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForceTouchTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5A66911EF288AB00FA7E0B /* ForceTouchTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForceTouchTestUITests.m; sourceTree = "<group>"; };
+		FA5A66931EF288AB00FA7E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5A66A31EF2948C00FA7E0B /* BTForceTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTForceTouch.h; sourceTree = "<group>"; };
+		FA5A66A41EF2948C00FA7E0B /* BTForceTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTForceTouch.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA5A66661EF288AB00FA7E0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5A667F1EF288AB00FA7E0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5A668A1EF288AB00FA7E0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA5A66601EF288AB00FA7E0B = {
+			isa = PBXGroup;
+			children = (
+				FA5A666B1EF288AB00FA7E0B /* ForceTouchTest */,
+				FA5A66851EF288AB00FA7E0B /* ForceTouchTestTests */,
+				FA5A66901EF288AB00FA7E0B /* ForceTouchTestUITests */,
+				FA5A666A1EF288AB00FA7E0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA5A666A1EF288AB00FA7E0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA5A66691EF288AB00FA7E0B /* ForceTouchTest.app */,
+				FA5A66821EF288AB00FA7E0B /* ForceTouchTestTests.xctest */,
+				FA5A668D1EF288AB00FA7E0B /* ForceTouchTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA5A666B1EF288AB00FA7E0B /* ForceTouchTest */ = {
+			isa = PBXGroup;
+			children = (
+				FA5A666F1EF288AB00FA7E0B /* AppDelegate.h */,
+				FA5A66701EF288AB00FA7E0B /* AppDelegate.m */,
+				FA5A66721EF288AB00FA7E0B /* ViewController.h */,
+				FA5A66731EF288AB00FA7E0B /* ViewController.m */,
+				FA5A66A31EF2948C00FA7E0B /* BTForceTouch.h */,
+				FA5A66A41EF2948C00FA7E0B /* BTForceTouch.m */,
+				FA5A66751EF288AB00FA7E0B /* Main.storyboard */,
+				FA5A66781EF288AB00FA7E0B /* Assets.xcassets */,
+				FA5A667A1EF288AB00FA7E0B /* LaunchScreen.storyboard */,
+				FA5A667D1EF288AB00FA7E0B /* Info.plist */,
+				FA5A666C1EF288AB00FA7E0B /* Supporting Files */,
+			);
+			path = ForceTouchTest;
+			sourceTree = "<group>";
+		};
+		FA5A666C1EF288AB00FA7E0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA5A666D1EF288AB00FA7E0B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA5A66851EF288AB00FA7E0B /* ForceTouchTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA5A66861EF288AB00FA7E0B /* ForceTouchTestTests.m */,
+				FA5A66881EF288AB00FA7E0B /* Info.plist */,
+			);
+			path = ForceTouchTestTests;
+			sourceTree = "<group>";
+		};
+		FA5A66901EF288AB00FA7E0B /* ForceTouchTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA5A66911EF288AB00FA7E0B /* ForceTouchTestUITests.m */,
+				FA5A66931EF288AB00FA7E0B /* Info.plist */,
+			);
+			path = ForceTouchTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA5A66681EF288AB00FA7E0B /* ForceTouchTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5A66961EF288AB00FA7E0B /* Build configuration list for PBXNativeTarget "ForceTouchTest" */;
+			buildPhases = (
+				FA5A66651EF288AB00FA7E0B /* Sources */,
+				FA5A66661EF288AB00FA7E0B /* Frameworks */,
+				FA5A66671EF288AB00FA7E0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForceTouchTest;
+			productName = ForceTouchTest;
+			productReference = FA5A66691EF288AB00FA7E0B /* ForceTouchTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA5A66811EF288AB00FA7E0B /* ForceTouchTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5A66991EF288AB00FA7E0B /* Build configuration list for PBXNativeTarget "ForceTouchTestTests" */;
+			buildPhases = (
+				FA5A667E1EF288AB00FA7E0B /* Sources */,
+				FA5A667F1EF288AB00FA7E0B /* Frameworks */,
+				FA5A66801EF288AB00FA7E0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA5A66841EF288AB00FA7E0B /* PBXTargetDependency */,
+			);
+			name = ForceTouchTestTests;
+			productName = ForceTouchTestTests;
+			productReference = FA5A66821EF288AB00FA7E0B /* ForceTouchTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA5A668C1EF288AB00FA7E0B /* ForceTouchTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5A669C1EF288AB00FA7E0B /* Build configuration list for PBXNativeTarget "ForceTouchTestUITests" */;
+			buildPhases = (
+				FA5A66891EF288AB00FA7E0B /* Sources */,
+				FA5A668A1EF288AB00FA7E0B /* Frameworks */,
+				FA5A668B1EF288AB00FA7E0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA5A668F1EF288AB00FA7E0B /* PBXTargetDependency */,
+			);
+			name = ForceTouchTestUITests;
+			productName = ForceTouchTestUITests;
+			productReference = FA5A668D1EF288AB00FA7E0B /* ForceTouchTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA5A66611EF288AB00FA7E0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = bit_tea;
+				TargetAttributes = {
+					FA5A66681EF288AB00FA7E0B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = VSE982GQ5L;
+						ProvisioningStyle = Automatic;
+					};
+					FA5A66811EF288AB00FA7E0B = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA5A66681EF288AB00FA7E0B;
+					};
+					FA5A668C1EF288AB00FA7E0B = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA5A66681EF288AB00FA7E0B;
+					};
+				};
+			};
+			buildConfigurationList = FA5A66641EF288AB00FA7E0B /* Build configuration list for PBXProject "ForceTouchTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA5A66601EF288AB00FA7E0B;
+			productRefGroup = FA5A666A1EF288AB00FA7E0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA5A66681EF288AB00FA7E0B /* ForceTouchTest */,
+				FA5A66811EF288AB00FA7E0B /* ForceTouchTestTests */,
+				FA5A668C1EF288AB00FA7E0B /* ForceTouchTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA5A66671EF288AB00FA7E0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5A667C1EF288AB00FA7E0B /* LaunchScreen.storyboard in Resources */,
+				FA5A66791EF288AB00FA7E0B /* Assets.xcassets in Resources */,
+				FA5A66771EF288AB00FA7E0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5A66801EF288AB00FA7E0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5A668B1EF288AB00FA7E0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA5A66651EF288AB00FA7E0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5A66741EF288AB00FA7E0B /* ViewController.m in Sources */,
+				FA5A66A51EF2948C00FA7E0B /* BTForceTouch.m in Sources */,
+				FA5A66711EF288AB00FA7E0B /* AppDelegate.m in Sources */,
+				FA5A666E1EF288AB00FA7E0B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5A667E1EF288AB00FA7E0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5A66871EF288AB00FA7E0B /* ForceTouchTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5A66891EF288AB00FA7E0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5A66921EF288AB00FA7E0B /* ForceTouchTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA5A66841EF288AB00FA7E0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA5A66681EF288AB00FA7E0B /* ForceTouchTest */;
+			targetProxy = FA5A66831EF288AB00FA7E0B /* PBXContainerItemProxy */;
+		};
+		FA5A668F1EF288AB00FA7E0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA5A66681EF288AB00FA7E0B /* ForceTouchTest */;
+			targetProxy = FA5A668E1EF288AB00FA7E0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA5A66751EF288AB00FA7E0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA5A66761EF288AB00FA7E0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA5A667A1EF288AB00FA7E0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA5A667B1EF288AB00FA7E0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA5A66941EF288AB00FA7E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA5A66951EF288AB00FA7E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA5A66971EF288AB00FA7E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = VSE982GQ5L;
+				INFOPLIST_FILE = ForceTouchTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bit-tea.ForceTouchTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		FA5A66981EF288AB00FA7E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = VSE982GQ5L;
+				INFOPLIST_FILE = ForceTouchTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bit-tea.ForceTouchTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		FA5A669A1EF288AB00FA7E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ForceTouchTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bit-tea.ForceTouchTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForceTouchTest.app/ForceTouchTest";
+			};
+			name = Debug;
+		};
+		FA5A669B1EF288AB00FA7E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ForceTouchTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bit-tea.ForceTouchTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForceTouchTest.app/ForceTouchTest";
+			};
+			name = Release;
+		};
+		FA5A669D1EF288AB00FA7E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ForceTouchTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bit-tea.ForceTouchTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ForceTouchTest;
+			};
+			name = Debug;
+		};
+		FA5A669E1EF288AB00FA7E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ForceTouchTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bit-tea.ForceTouchTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ForceTouchTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA5A66641EF288AB00FA7E0B /* Build configuration list for PBXProject "ForceTouchTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5A66941EF288AB00FA7E0B /* Debug */,
+				FA5A66951EF288AB00FA7E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5A66961EF288AB00FA7E0B /* Build configuration list for PBXNativeTarget "ForceTouchTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5A66971EF288AB00FA7E0B /* Debug */,
+				FA5A66981EF288AB00FA7E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5A66991EF288AB00FA7E0B /* Build configuration list for PBXNativeTarget "ForceTouchTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5A669A1EF288AB00FA7E0B /* Debug */,
+				FA5A669B1EF288AB00FA7E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5A669C1EF288AB00FA7E0B /* Build configuration list for PBXNativeTarget "ForceTouchTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5A669D1EF288AB00FA7E0B /* Debug */,
+				FA5A669E1EF288AB00FA7E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA5A66611EF288AB00FA7E0B /* Project object */;
+}
