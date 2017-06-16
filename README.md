@@ -7,7 +7,7 @@
 ```Objective-C
  - (void)application:(UIApplication *)application performActionForShortcutItem:(UIApplicationShortcutItem *)shortcutItem completionHandler:(void (^)(BOOL))completionHandler
  {
-[[BTForceTouch sharedInstance] handlePerformActionForShortcutItem:shortcutItem];
+     [[BTForceTouch sharedInstance] handlePerformActionForShortcutItem:shortcutItem];
  }
 ```
     3.在工程中创建并初始化对象，实现其点击事件，示例如下：（或下载demo查看）
