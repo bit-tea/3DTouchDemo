@@ -11,7 +11,7 @@
  }
 ```
     3.在工程中创建并初始化对象，实现其点击事件，示例如下：（或下载demo查看）
-```OC
+```Objective-C
      [[BTForceTouch sharedInstance] initWithTitleArray:@[@"11111",@"22222"] subTitleArray:@[@"11111",@"22222",@"22222"] iconArray:@[@"Employee-plan_btn_se@2x",@"Employee-plan_btn_se@2x",@"Employee-plan_btn_se@2x"]];
 
      [BTForceTouch sharedInstance].performedIndex = ^(NSInteger index) {
