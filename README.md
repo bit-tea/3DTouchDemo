@@ -1,5 +1,6 @@
 # 3D-touch-Home-screen-quick-actions
-## 3D touch-Home Screen Quick Actions的简单封装
+
+     3D touch-Home Screen Quick Actions的简单封装
 
     1.将BTForceTouch.h，BTForceTouch.m拖入工程中；
     2. AppDelegate.h中导入头文件BTForceTouch.h，并实现其代理方法：(复制即可)
