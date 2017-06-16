@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-
+    
     [[BTForceTouch sharedInstance] initWithTitleArray:@[@"11111",@"22222",@"22222"] subTitleArray:@[@"11111",@"22222",@"22222"] iconArray:@[@"Employee-plan_btn_se",@"Employee-plan_btn_se",@"Employee-plan_btn_se"]];
     [BTForceTouch sharedInstance].performedIndex = ^(NSInteger index) {
         if (index == 0) {

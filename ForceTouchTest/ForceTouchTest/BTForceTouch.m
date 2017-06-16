@@ -29,6 +29,11 @@
 {
     _titleArray = titleArray;
     
+    UIViewController *rootVC = [[[UIApplication sharedApplication] keyWindow] rootViewController];
+    if (rootVC.traitCollection.forceTouchCapability != UIForceTouchCapabilityAvailable) {
+        return;
+    }
+    
     NSMutableArray *items = [NSMutableArray array];
     for (NSInteger i = 0; i < titleArray.count; i++) {
         
