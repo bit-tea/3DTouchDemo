@@ -5,7 +5,7 @@
     1.将BTForceTouch.h，BTForceTouch.m拖入工程中；
     2. AppDelegate.h中导入头文件BTForceTouch.h，并实现其代理方法：(复制即可)
 
-    · - (void)application:(UIApplication *)application performActionForShortcutItem:(UIApplicationShortcutItem *)shortcutItem completionHandler:(void (^)(BOOL))completionHandler
+    ` - (void)application:(UIApplication *)application performActionForShortcutItem:(UIApplicationShortcutItem *)shortcutItem completionHandler:(void (^)(BOOL))completionHandler
     ·  {
      · [[BTForceTouch sharedInstance] handlePerformActionForShortcutItem:shortcutItem];
      · }
