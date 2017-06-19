@@ -31,6 +31,7 @@
     
     UIViewController *rootVC = [[[UIApplication sharedApplication] keyWindow] rootViewController];
     if (rootVC.traitCollection.forceTouchCapability != UIForceTouchCapabilityAvailable) {
+        NSLog(@"很抱歉，您的设备不支持3D touch功能");
         return;
     }
     
